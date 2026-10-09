@@ -1,0 +1,515 @@
+/* Bening Skin - style.css */
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FAF8F2;
+    color: #394438;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #FAF8F2;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+    color: #394438;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+header p {
+    color: #777D70;
+    font-size: 14px;
+}
+
+/* Navigation */
+nav {
+    background-color: #E8EBDD;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #394438;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #849477;
+}
+
+/* Welcome section */
+.welcome {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #E8EBDD;
+}
+
+.subtitle {
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: #78866A;
+}
+
+.welcome h1 {
+    font-size: 42px;
+    line-height: 1.3;
+    margin: 20px 0;
+}
+
+.welcome p {
+    max-width: 500px;
+    margin: 15px auto 25px;
+    line-height: 1.8;
+    color: #626B5D;
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    background-color: #52634D;
+    color: white;
+    padding: 13px 25px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.button:hover {
+    background-color: #394438;
+}
+
+/* Products */
+#products {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+#products h2,
+.benefits h2,
+.price-list h2 {
+    font-size: 28px;
+}
+
+.description {
+    color: #777D70;
+    margin-bottom: 35px;
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background-color: white;
+    padding: 25px;
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0 3px 12px #00000010;
+}
+
+.product-card img {
+    width: 100%;
+    height: 230px;
+    object-fit: contain;
+}
+
+.product-card h3 {
+    margin-top: 20px;
+}
+
+.product-card p {
+    color: #777D70;
+    line-height: 1.6;
+}
+
+.product-card .price {
+    color: #52634D;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Benefits */
+.benefits {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #E8EBDD;
+}
+
+.benefit-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.benefit-container div {
+    max-width: 220px;
+    padding: 15px;
+}
+
+.benefit-container p {
+    color: #626B5D;
+    line-height: 1.7;
+}
+
+/* Price list */
+.price-list {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+table {
+    width: 80%;
+    max-width: 600px;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th {
+    background-color: #52634D;
+    color: white;
+}
+
+th, td {
+    padding: 16px;
+    border: 1px solid #DDE1D5;
+    text-align: left;
+}
+
+/* Consultation */
+.consultation {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #E8EBDD;
+}
+
+.consultation p {
+    margin-bottom: 25px;
+    color: #626B5D;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 35px 20px;
+    background-color: #394438;
+    color: white;
+}
+
+.footer-logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+footer p {
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.copyright {
+    margin-top: 25px;
+    color: #D5DCCF;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .welcome h1 {
+        font-size: 32px;
+    }
+
+    nav ul {
+        gap: 15px;
+    }
+
+    nav a {
+        font-size: 12px;
+    }
+
+    .product-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    table {
+        width: 100%;
+    }
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FAF8F2;
+    color: #394438;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #FAF8F2;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+    color: #394438;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+header p {
+    color: #777D70;
+    font-size: 14px;
+}
+
+/* Navigation */
+nav {
+    background-color: #E8EBDD;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #394438;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #849477;
+}
+
+/* Welcome section */
+.welcome {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #E8EBDD;
+}
+
+.subtitle {
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: #78866A;
+}
+
+.welcome h1 {
+    font-size: 42px;
+    line-height: 1.3;
+    margin: 20px 0;
+}
+
+.welcome p {
+    max-width: 500px;
+    margin: 15px auto 25px;
+    line-height: 1.8;
+    color: #626B5D;
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    background-color: #52634D;
+    color: white;
+    padding: 13px 25px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.button:hover {
+    background-color: #394438;
+}
+
+/* Products */
+#products {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+#products h2,
+.benefits h2,
+.price-list h2 {
+    font-size: 28px;
+}
+
+.description {
+    color: #777D70;
+    margin-bottom: 35px;
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background-color: white;
+    padding: 25px;
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0 3px 12px #00000010;
+}
+
+.product-card img {
+    width: 100%;
+    height: 230px;
+    object-fit: contain;
+}
+
+.product-card h3 {
+    margin-top: 20px;
+}
+
+.product-card p {
+    color: #777D70;
+    line-height: 1.6;
+}
+
+.product-card .price {
+    color: #52634D;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Benefits */
+.benefits {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #E8EBDD;
+}
+
+.benefit-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.benefit-container div {
+    max-width: 220px;
+    padding: 15px;
+}
+
+.benefit-container p {
+    color: #626B5D;
+    line-height: 1.7;
+}
+
+/* Price list */
+.price-list {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+table {
+    width: 80%;
+    max-width: 600px;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th {
+    background-color: #52634D;
+    color: white;
+}
+
+th, td {
+    padding: 16px;
+    border: 1px solid #DDE1D5;
+    text-align: left;
+}
+
+/* Consultation */
+.consultation {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #E8EBDD;
+}
+
+.consultation p {
+    margin-bottom: 25px;
+    color: #626B5D;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 35px 20px;
+    background-color: #394438;
+    color: white;
+}
+
+.footer-logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+footer p {
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.copyright {
+    margin-top: 25px;
+    color: #D5DCCF;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .welcome h1 {
+        font-size: 32px;
+    }
+
+    nav ul {
+        gap: 15px;
+    }
+
+    nav a {
+        font-size: 12px;
+    }
+
+    .product-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    table {
+        width: 100%;
+    }
+}
